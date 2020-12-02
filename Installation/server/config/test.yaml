@@ -1,0 +1,17 @@
+application: {}
+environments:
+  prod:
+    allow_drop_all: 'True'
+    api_path: /api
+    description: Test infrastructure for ppDLI
+    ip: 127.0.0.1
+    logging:
+      backup_count: 5
+      datefmt: '%H:%M:%S'
+      file: test.log
+      format: '%(asctime)s - %(name)-14s - %(levelname)-8s - %(message)s'
+      level: DEBUG
+      max_size: 1024
+      use_console: true
+    port: '5000'
+    uri: sqlite:///test.sqlite
