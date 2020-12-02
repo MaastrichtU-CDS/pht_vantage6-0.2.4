@@ -11,7 +11,7 @@ For an overview of the architecture and information on how to use the infrastruc
 ### Server
 Running the central server requires a (virtual) machine that:
 * is accessible from the internet
-* has Python 3.6+ and the ppdli package installed (`pip install -e.)
+* has Python 3.6+ and the ppdli package installed from source (`pip install -e.) or [install_ubuntu.sh](https://gitlab.com/UM-CDS/pht/vantage6-0.2.4/-/blob/master/Installation/server/install_ubuntu.sh)
 
 ### Node
 Running a node/site requires a (virtual) machine that has:
