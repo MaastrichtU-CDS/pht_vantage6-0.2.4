@@ -21,6 +21,6 @@ Running a node/site requires a (virtual) machine that has:
 * Access to the internet and/or central server
 
 #Testing
-1. Test if server fixtures and api are correctly working. [adminQuery](https://gitlab.com/UM-CDS/pht/vantage6-0.2.4/-/blob/master/Installation/test/adminQuery.ipynb)
-2. Test to post a distributed task. [addtask](https://gitlab.com/UM-CDS/pht/vantage6-0.2.4/-/blob/master/Installation/test/addTask.ipynb)
+1. Test if server fixtures and api are correctly working. Refer to the jupyter notebook [adminQuery](https://gitlab.com/UM-CDS/pht/vantage6-0.2.4/-/blob/master/Installation/test/adminQuery.ipynb)
+2. Test to post a distributed task. Refer to the jupyter notebook [addtask](https://gitlab.com/UM-CDS/pht/vantage6-0.2.4/-/blob/master/Installation/test/addTask.ipynb)
  
