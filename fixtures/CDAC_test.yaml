@@ -1,0 +1,41 @@
+organizations:
+  - name:       NTest1
+    domain:     maastro.nl
+    address1:   Dr. Tanslaan 12
+    address2:   
+    zipcode:    6229 ET
+    country:    Netherlands
+    users:
+      - username: test_1
+        firstname: test1
+        lastname: test1
+        password: password
+        roles: "root"
+      - username: admin_1
+        firstname: admin1
+        lastname: admin1
+        password: password
+        roles: "admin"
+  - name:       NTest2
+    domain:     maastro.nl
+    address1:   Dr. Tanslaan 12
+    address2:   
+    zipcode:    6229 ET
+    country:    Netherlands
+    users:
+      - username: test_2
+        firstname: test2
+        lastname: test2
+        password: password
+        roles: "root"
+      - username: admin_2
+        firstname: admin2
+        lastname: admin2
+        password: password
+        roles: "admin" 
+collaborations:
+  - name: CDAC
+    participants:
+      - NTest1
+      - NTest2
+    tasks: ["hello-ddl"]
