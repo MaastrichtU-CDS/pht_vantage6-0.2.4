@@ -21,4 +21,10 @@ Running a node/site requires a (virtual) machine that has:
 * Access to the internet and/or central server
 
 ## Installation
-See the [readme.io](https://distributedlearning.readme.io/) for detailed instructions on how to install the server and nodes. 
+1. Install server and import fixutes (run install_ubuntu.sh) . You can also load your own fixtures
+2. Install node (run install_node.sh) . Supply api_key and database path at prompt
+
+#Testing
+1. Test if server fixtures and api are correctly working. Run Server.ipynb
+2. Test to post a distributed task. Run Task.ipynb
+ 
