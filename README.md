@@ -8,23 +8,19 @@ The growing complexity of cancer diagnosis and treatment requires data sets that
 For an overview of the architecture and information on how to use the infrastructure, please see [https://distributedlearning.ai](https://distributedlearning.ai). For documentation please see [https://distributedlearning.readme.io](https://distributedlearning.readme.io).
 
 ## Hardware and software requirements
-### Server
+### Server Installation
 Running the central server requires a (virtual) machine that:
 * is accessible from the internet
 * has Python 3.6+ and the ppdli package installed from source (`pip install -e.) or [install_ubuntu.sh](https://gitlab.com/UM-CDS/pht/vantage6-0.2.4/-/blob/master/Installation/server/install_ubuntu.sh)
 
-### Node
+### Node Installation
 Running a node/site requires a (virtual) machine that has:
-* Python 3.6+ and the ppdli package installed (`pip install -e.`)
+* Python 3.6+ and the ppdli package installed from source(`pip install -e.`)
 * Docker CE installed (the user running the node software needs to have the proper permissions to perform docker commands)
 * Access to a local data store
 * Access to the internet and/or central server
 
-## Installation
-1. Install server and import fixutes (run install_ubuntu.sh) . You can also load your own fixtures
-2. Install node (run install_node.sh) . Supply api_key and database path at prompt
-
 #Testing
-1. Test if server fixtures and api are correctly working. Run Server.ipynb
-2. Test to post a distributed task. Run Task.ipynb
+1. Test if server fixtures and api are correctly working. [adminQuery](https://gitlab.com/UM-CDS/pht/vantage6-0.2.4/-/blob/master/Installation/test/adminQuery.ipynb)
+2. Test to post a distributed task. [addtask](https://gitlab.com/UM-CDS/pht/vantage6-0.2.4/-/blob/master/Installation/test/addTask.ipynb)
  
